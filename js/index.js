@@ -11,17 +11,3 @@
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
 });
-
-
-var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 2,
-    spaceBetween: 150,
-    slidesPerGroup: 1,
-    centeredSlides: true,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-    },
-});
