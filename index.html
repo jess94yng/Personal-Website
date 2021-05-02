@@ -26,10 +26,10 @@
     <body id="page-top">
         <!-- Masthead-->
         <header class="masthead">
-            <div class = "container d-flex h-100 align-items-center">
-                <img class="img-profile" src="img/profile.png" alt="" />
+            <div class = "change-container d-flex h-100 align-items-center">
+                <img class="img-profile" src="img/profile.png" alt="" >
                 <div class="masthead-text"> 
-                    <h1 class="masthead-title">Hey, I'm Jessica
+                    <h1 class="masthead-title">Hey, <span class = "highlight">I'm Jessica</span>
                     </h1>
                     <h2 class="masthead-subtitle">Thank you for stopping by! <br> Scroll down to learn more about me.</h2>
                     <div class="arrow-container">
@@ -41,13 +41,9 @@
         </header>
 
         <!-- About-->
-        <section class="about-section" id="about">
-            <address>
-            <a href="mailto:j595yang@uwaterloo.ca"><i class="fas fa-envelope fa-3x img-icon" data-fa-transform="down-70 right-95"></i></a>
-            </address>
-            <a href="https://www.linkedin.com/in/jessica-yang-ab4893160/" target = "_blank"><i class="fab fa-linkedin fa-3x img-icon" data-fa-transform="down-75 right-96"></i></a>
-            <a href="https://github.com/jess94yng" target = "_blank"><i class="fab fa-github fa-3x img-icon" data-fa-transform="down-95 right-80"></i></a>
+        <section class="about-section align-items-center" id="about">
             <div class="about-text">
+                <h1 class = "about-title">Here's a <span class = "highlight">Little About Me</span></h1>
                 <p class="about-main">
                     My name is Jessica and I am a 
                     <a href="https://uwaterloo.ca/future-students/programs/biomedical-engineering" target = "_blank">Biomedical Engineering student at UWaterloo</a>
@@ -68,12 +64,19 @@
                     <a href="https://docs.google.com/document/d/1lQZRspaS-bq7krSJHyjqNpbt6fNszrv0hETlTqfQKvk/edit?usp=sharings" target = "_blank">here</a>.
                 </p>
             </div>
+            <div class = "icon-container1">
+                <address>
+                <a href="mailto:j595yang@uwaterloo.ca"><i class="fas fa-envelope fa-3x img-icon1"></i></a>
+                </address>
+                <a href="https://www.linkedin.com/in/jessica-yang-ab4893160/" target = "_blank"><i class="fab fa-linkedin fa-3x img-icon2" data-fa-transform="up-16"></i></a>
+                <a href="https://github.com/jess94yng" target = "_blank"><i class="fab fa-github fa-3x img-icon3"  data-fa-transform="up-32"></i></a>
+            </div>
         </section>
 
         <!--Experiences-->
         <section class="experience-section" id="experiences">
             <div class = "container">
-                <h1 class="portfolio-title">My Experiences</h1>
+                <h1 class="portfolio-title">My <span class = "highlight">Experiences</span></h1>
                 <div class = "row">
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
@@ -181,21 +184,21 @@
         </section>
 
         <!--Projects-->
-        <section class="projects-section" id="projects">
+        <section class="experience-section" id="projects">
             <div class = "container">
-                <h1 class="portfolio-title">My Projects</h1>
+                <h1 class="portfolio-title">My <span class = "highlight">Projects</span></h1>
                 <p class = "experience-caption">
                     My Programming Languages & Tools:
                     <br>
                     <br>
                     <p class = "project-icon-font">
-                        <i class="fab fa-html5 fa-1x img-icon"></i>&nbsp;
-                        <i class="fab fa-css3-alt fa-1x img-icon"></i>&nbsp;
+                        <i class="fab fa-html5 fa-1x img-icon-white"></i>&nbsp;
+                        <i class="fab fa-css3-alt fa-1x img-icon-white"></i>&nbsp;
                         C/C#/C++&nbsp;
-                        <i class="fab fa-js fa-1x img-icon"></i>&nbsp;
-                        <i class="fab fa-python fa-1x img-icon"></i>&nbsp;
+                        <i class="fab fa-js fa-1x img-icon-white"></i>&nbsp;
+                        <i class="fab fa-python fa-1x img-icon-white"></i>&nbsp;
                         SQL&nbsp;
-                        <i class="fab fa-bootstrap fa-1x img-icon"></i>&nbsp;
+                        <i class="fab fa-bootstrap fa-1x img-icon-white"></i>&nbsp;
                         Solidworks
                     </p>
                 </p>
@@ -203,9 +206,36 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
+                            <p class = "slide-title">Recipro 
+                                <br>
+                                <a href="https://github.com/jess94yng/recipro" target = "_blank"><i class="fab fa-github fa-3x img-icon" data-fa-transform="down-5"></i></a>
+                                <p class = "slide-text">
+                                    React Native android application created to boost social capital through reciprocity within neighbourhoods. Implemented using Firebase for real time data updates.
+                                </p>
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class = "slide-title">NOM.
+                                <br>
+                                <a href="https://github.com/jess94yng/Nom" target = "_blank"><i class="fab fa-github fa-3x img-icon" data-fa-transform="down-5"></i></a>
+                                <p class = "slide-text">
+                                    Java-based android application that keeps track of fridge contents with the goal of reducing food waste.
+                                </p>
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class = "slide-title">Pikkr
+                                <br>
+                                <a href="https://github.com/SongRe/MovieApp" target = "_blank"><i class="fab fa-github fa-3x img-icon" data-fa-transform="down-5"></i></a>
+                                <p class = "slide-text">
+                                    Java-based android application that saves headaches from endless arguments by creating an efficient browsing and voting system for movies, with a simple swipe.
+                                </p>
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
                             <p class = "slide-title">Co-Linked 
                                 <br>
-                                <a href="https://github.com/CKaps1/IvyHacks2020" target = "_blank"><i class="fab fa-github fa-2x img-icon" data-fa-transform="down-5"></i></a>
+                                <a href="https://github.com/CKaps1/IvyHacks2020" target = "_blank"><i class="fab fa-github fa-3x img-icon" data-fa-transform="down-5"></i></a>
                                 <p class = "slide-text">
                                     A web application that effectively connects students with special needs to educational resources
                                     such as live special educators, learning tools, and others.
@@ -239,7 +269,7 @@
                         <div class="swiper-slide">
                             <p class = "slide-title">A Bit Of Covid 
                                 <br>
-                                <a href="https://github.com/markhalka/A-bit-of-COVID" target = "_blank"><i class="fab fa-github fa-2x img-icon" data-fa-transform="down-5"></i></a>
+                                <a href="https://github.com/markhalka/A-bit-of-COVID" target = "_blank"><i class="fab fa-github fa-3x img-icon" data-fa-transform="down-5"></i></a>
                                 <p class = "slide-text">
                                     A web application that models and monitors the growth of covid-19 cases during the pandemic.
                                 </p>
@@ -253,10 +283,14 @@
                     <div class="swiper-button-next" ></div>
                     <div class="swiper-button-prev"></div>
                 </div>
+                <p class = "footer-text">
+                    Designed and created from scratch by Jessica Yang.<br>
+                    Last updated April 2021.
+                </p>
                 <script>
                     var swiper = new Swiper('.swiper-container', {
-                        slidesPerView: 2,
-                        spaceBetween: 150,
+                        slidesPerView: 4,
+                        spaceBetween: 120,
                         slidesPerGroup: 1,
                         centeredSlides: true,
                         loop: true,
@@ -267,15 +301,6 @@
                         },
                     });
                 </script>
-            </div>
-        </section>
-
-        <section class="footer-section" id="footer">
-            <div class = "container">
-                <p class = "footer-text">
-                    Designed and created from scratch by Jessica Yang.<br>
-                    Last updated December 2020.
-                </p>
             </div>
         </section>
 
